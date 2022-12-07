@@ -157,6 +157,7 @@ button{
     max-width: 1000px;
     height: 100px;
     margin-left: 150px;
+    flex-wrap: wrap;
 }
 
 .cta-maintext{
