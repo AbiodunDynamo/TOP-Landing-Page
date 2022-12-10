@@ -1,8 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .header{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #1F2937;
+    margin: 0;
+
 }
 .logo{
     font-size: 24px;
@@ -38,8 +44,8 @@ li{
     flex-wrap: wrap;
 }
 .herotext{
-    margin: 50px;
-    padding: 50px;
+    margin: 45px;
+    padding: 45px;
     max-width: 450px;
 
 }
@@ -66,7 +72,8 @@ button{
     width: 140px;
     margin-left: 10px;
     font-weight: bold;
-    font-family: 'Roboto';   
+    font-family: 'Roboto';
+    border: solid white 1px;   
 }
 .placeholder-box{
     height: 250px;
@@ -153,16 +160,17 @@ button{
     padding: 20px;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 45px;
     max-width: 1000px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .cta-maintext{
     font-size: 30px;
     color: white;
     font-weight: bold;
+    margin-right: 10px;
 }
 .cta-subtext{
     font-size: 18px;
