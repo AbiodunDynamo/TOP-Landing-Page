@@ -4,43 +4,51 @@ body{
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    margin: 0;
+    padding: 5px 40px;
+    flex-wrap: wrap;
 
 }
 .logo{
     font-size: 24px;
+    color: #1F2937;
+    font: 'Roboto';
+    border-radius: 50%;
+    font-size: 35px;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: #f9faf8;
+    width: 35px;
+    text-align: center;
+}
+.page-title{
     color: #f9faf8;
-    font: 'Roboto';
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
 }
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    padding: 10px;
-    margin: 10px;
-    
-}
-a{
-    text-decoration: none;
-    font: 'Roboto';
-    color: #e5e7eb;
+.signup-button{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: auto;
+    width: 100px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    border: solid #1F2937 1px; 
 
-}
-li{
-    list-style-type: none;
-    font-size: 18px;
 }
 .hero{
     display: flex;
     background-color: #1F2937;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     color: white;
-    gap: 10px;
     flex-wrap: wrap;
 }
 .herotext{
@@ -66,25 +74,23 @@ button{
     background-color: #3882f6;
     color: white;
     padding: 10px;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 15px;
     height: auto;
-    width: 140px;
+    width: 120px;
     margin-left: 10px;
     font-weight: bold;
     font-family: 'Roboto';
-    border: solid white 1px;   
+    border: solid #1F2937 1px;   
 }
-.placeholder-box{
-    height: 250px;
+img{
     width: 500px;
-    background-color: #f9faf8;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    height: auto;
+    align-self: center;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 
 .box-container-title{
@@ -116,12 +122,20 @@ button{
 .box{
     width: 150px;
     height: 150px;
-    border: solid #3882f6 4px;
+    /*border: solid #3882f6 4px;*/
     border-radius: 10px;
 }
 .text{
     color: #1F2937;
     text-align: center;
+}
+
+.icons{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-section{
@@ -133,6 +147,13 @@ button{
     justify-content: center;
     background-color: #E5E7EB;
 }
+.q-title{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 10px;
+}
 .quote{
     font-size: 36px;
     font-style: italic;
@@ -140,8 +161,8 @@ button{
     color: #1F2937;
     align-self: center;
     max-width: 890px;
-    margin-top: 50px;
-    padding: 50px;
+    margin-top: 10px;
+    padding: 30px;
 }
 .author{
     align-self: flex-end;
@@ -160,17 +181,17 @@ button{
     padding: 20px;
     justify-content: center;
     align-items: center;
-    gap: 45px;
+    gap: 25px;
     max-width: 1000px;
     height: 100px;
-    margin-left: 100px;
+    margin: 10px;
 }
 
 .cta-maintext{
     font-size: 30px;
     color: white;
     font-weight: bold;
-    margin-right: 10px;
+    margin: 5px;
 }
 .cta-subtext{
     font-size: 18px;
@@ -180,7 +201,9 @@ button{
     border-radius: 10px;
     border: solid white 2px;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 15px;
+    margin: 10px;
+    align-self: center;
 }
 .footer-container{
     background-color: #1F2937;
