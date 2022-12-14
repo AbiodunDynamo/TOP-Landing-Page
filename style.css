@@ -11,6 +11,10 @@ body{
     flex-wrap: wrap;
 
 }
+
+a{
+    text-decoration: none;
+}
 .logo{
     font-size: 24px;
     color: #1F2937;
@@ -216,4 +220,63 @@ img{
 .footer{
     font-size: 18px;
     font-weight: bold;
+}
+
+/* sign up page css begins*/
+.signup-body{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+.sign-up-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 5px 40px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.sign-up-form{
+    border: solid #1F2937 2px;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    align-self: center;
+    background-color: #E5E7EB;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*border: solid #3882f6 2px;*/
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    flex-shrink: 0;
+    border-color: #fdfdfd;
+}
+.sign-goggle-box{
+    width: 200px;
+    height: auto;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2px;
+    margin-top: 5px;
+    text-align: center;
 }
