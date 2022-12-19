@@ -150,6 +150,7 @@ img{
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
+    flex-shrink: 0;
 }
 .q-title{
     font-size: 36px;
@@ -177,6 +178,8 @@ img{
 
 .cta-container{
     padding: 80px;
+    display: flex;
+    flex-shrink: 0;
 }
 .cta-box{
     display: flex;
@@ -189,6 +192,7 @@ img{
     max-width: 1000px;
     height: 100px;
     margin: 10px;
+    flex-shrink: 0;
 }
 
 .cta-maintext{
@@ -196,10 +200,12 @@ img{
     color: white;
     font-weight: bold;
     margin: 5px;
+    flex-shrink: 0
 }
 .cta-subtext{
     font-size: 18px;
     color: white;
+    flex-shrink: 0
 }
 .cta-button{
     border-radius: 10px;
@@ -208,6 +214,7 @@ img{
     font-size: 15px;
     margin: 10px;
     align-self: center;
+    flex-shrink: 0
 }
 .footer-container{
     background-color: #1F2937;
